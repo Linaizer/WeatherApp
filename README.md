@@ -37,7 +37,7 @@ The background changes depending on the weather and local time of the chosen cit
 ## Getting Started
 
 ```bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/Linaizer/weather-app.git
 cd weather-app
 npm install
 ```
