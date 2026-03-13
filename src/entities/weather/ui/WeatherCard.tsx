@@ -1,6 +1,6 @@
 import { TemperatureChart } from "../../../shared/ui/TemperatureChart";
 import { WeatherBackground } from "../../../shared/ui/WeatherBackground";
-import { CityWeather } from "../../../types/domian";
+import { CityWeather } from "../../../shared/types";
 import { ForecastList } from "../../../features/forecast-list/ui/ForecastList";
 import { WeatherHeader } from "./WeatherHeader";
 import { WeatherStats } from "./WeatherStats";

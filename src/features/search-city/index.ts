@@ -1,1 +1,1 @@
-export { default } from './ui/SearchCity'
+export { SearchCity} from './ui/SearchCity'

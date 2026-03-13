@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { CityWeather } from "../types/domian";
+import { CityWeather } from "../../../shared/types";
 import { fetchForecast } from "../api/openweather";
 import { fetchGeocode } from "../api/fetchGeocode";
 

@@ -1,1 +1,1 @@
-export { default } from './ui/ForecastList'
+export { ForecastList } from './ui/ForecastList'

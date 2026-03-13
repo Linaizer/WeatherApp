@@ -1,4 +1,4 @@
-import { ForecastDay } from "../../../types/domian"
+import { ForecastDay } from "../../../shared/types"
 
 interface WeatherHeaderProps {
     cityName: string

@@ -1,5 +1,5 @@
-import { WeatherForecasDTO } from "../types/dto"
-import { CityWeather } from "../types/domian"
+import { WeatherForecasDTO } from "../../../shared/types";
+import { CityWeather } from "../../../shared/types";
 const API_KEY = import.meta.env.VITE_WEATHER_API_KEY
 
 const BASE_URL = (lat: number, lon: number) => {
