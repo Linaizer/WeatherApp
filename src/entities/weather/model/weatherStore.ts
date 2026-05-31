@@ -23,7 +23,7 @@ const weatherStore = create<WeatherStore>()((set) => ({
       }
    },
    weather: null,
-   isLoading: false,
+   isLoading: true,
    error: null,
    fetchWeather: async (lat, lon) => {
       set({ isLoading: true, error: null })

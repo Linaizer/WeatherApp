@@ -47,7 +47,7 @@ function Move-Safe {
         $destDir = Split-Path $To -Parent
         if (-not (Test-Path $destDir)) {
             New-Item -ItemType Directory -Force -Path $destDir | Out-Null
-        }
+    
         Move-Item -Path $From -Destination $To -Force
         Write-Host "   OK  $From  ->  $To" -ForegroundColor Green
     } else {

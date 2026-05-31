@@ -22,9 +22,9 @@ function App() {
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(success, OnGeoError, options)
   }, [fetchWeather])
-  if (isLoading) return <SkeletonCard />
+  if (isLoading || !weather) return <SkeletonCard />
   if (error) return <ErrorCard />
-  if (!weather) return 'Error with data'
+ 
   return (
     <div>
       <WeatherCard weather={weather} />

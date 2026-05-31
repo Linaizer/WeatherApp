@@ -43,7 +43,7 @@ export const WeatherCard = ({ weather }: WeatherCardProps) => {
           />
           <WeatherStats current={current} />
           <div className="pb-4 md:p-0">
-            <HourlyForecast forecast={weather.forecast} accentColor={accentColor} />
+            <HourlyForecast forecast={weather.forecast} />
           </div>
           <div className="hidden md:block">
             <SearchCity onSearch={fetchWeatherByCity} />
